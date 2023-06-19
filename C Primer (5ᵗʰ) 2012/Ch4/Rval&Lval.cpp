@@ -47,7 +47,7 @@ Rvalues is what is usually returned by a program
 (=) requires lvalue on its left and assigns an lvalue to it [yields lvalue]
 (&) requires lvalue on its right and returns rvalue pointer [yields rvalue]
 (*, []) requires lvalue operands beside it		      [yields lvalue]
-(++, --) requires lvalue operands beside it 		      [yields lvalue] 
+(++) requires lvalue operand and if its prefixit yealds lavlue if its postfix it yealds rvalue 
 
 
 
