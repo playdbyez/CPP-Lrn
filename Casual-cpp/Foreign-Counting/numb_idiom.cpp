@@ -8,8 +8,8 @@ cout << "ROMANIAN\nEnter any number from 0 - 10:\n \n";
 cout << "->";
 int i;
 cin >> i;
-if(i !=isalpha(i)){
-switch(i){
+if(i !=isalpha(i)){//maiTwu
+switch(i){//shapThamcortVVhite
 
 	case 10:
 	cout << "z e t c h e.\n\n";break;
